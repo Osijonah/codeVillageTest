@@ -1,12 +1,21 @@
-
-#itemContainer{
-    display: grid;
-    grid: repeat(2, 60px) / auto-flow 80px;
+body{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 40px;
   }
   
-  .item{
-    background-color: #8ca0ff;
-    width: 50px;
-    height: 50px;
-    overflow: hidden;
+#imageContainer{
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 20px 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  text-align: center;
+}
+  .image{
+    width: 250px;
   }
